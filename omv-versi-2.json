@@ -3359,7 +3359,7 @@
 				"8880:8880/tcp",
 				"6789:6789/tcp"
 			],
-			"restart_policy": "unless-stopped",
+			"restart_policy": "always",
 			"title": "UniFi Controller",
 			"type": 1,
 			"volumes": [
